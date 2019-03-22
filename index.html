@@ -2,9 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Sim City Bomb Squad</title>
   </head>
-  <body>
+  <body class="unexploded"> 
     <!-- Your code here -->
+    <div id="box">
+    	<img id="blue" src="img/uncut-blue-wire.png">
+    	<img id="green" src="img/uncut-green-wire.png">
+    	<img id="red" src="img/uncut-red-wire.png">
+    	<img id="white" src="img/uncut-white-wire.png">
+    	<img id="yellow" src="img/uncut-yellow-wire.png">
+    	<h2 id="timer">30</h2>
+    	<button id="reset">Start Game!</button>
+
+    </div>
+	<h1 id = "message"></h1>
+
+<!-- Sounds -->
+	<audio id="siren" src="sounds/mitrap.wav" loop></audio>
+	<audio id="explode" src="sounds/explosion.wav"></audio>
+	<audio id="cut" src="sounds/Electricity.wav"></audio>
+	<audio id="win" src="sounds/crowdcheer.wav"></audio>	<audio id="hot" src="sounds/hot.mp3"></audio>
+
+    <script src="bomb.js"></script>
   </body>
 </html>

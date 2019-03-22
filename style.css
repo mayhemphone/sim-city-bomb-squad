@@ -1,3 +1,37 @@
 body{
   text-align: center;
+  background-size:  100% 100vh;
+  background-repeat: no-repeat;
+  
+}
+
+
+#box {
+	background-color: #333;
+	padding:20px 15px 30px 15px;
+	display:inline-block;
+}
+#timer {
+	color: chartreuse;
+}
+#reset {
+	font-size: 20px;
+	padding:10px;
+}
+#message {
+	background: linear-gradient(to bottom right, blue, red);
+	color:white;
+/*	padding: 20px;
+	display: none;*/
+
+}
+
+.unexploded{
+background-image: url('img/simcity.jpg');
+
+}
+
+.exploded{
+background-image: url('img/explosion.jpg');
+
 }
